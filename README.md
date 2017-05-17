@@ -1,31 +1,36 @@
-StageXL_Spine
+Spine Web Scenes
 =============
 
-The Spine runtime for the StageXL library.
+## About
 
-[![Build Status](https://travis-ci.org/bp74/StageXL_Spine.svg?branch=master)](https://travis-ci.org/bp74/StageXL_Spine)
+Spine Web Scenes is a server part of the Spine Unity Tool. It offers easy way to transform scenes made in Unity to website and add some interactivity. The point of the Spine Web Scenes is to create interactive web sites with skeletal animations.
+
+Before releasing a some details must be changed. This version is not considered stable. 
+
+Spine Unity Tool link:
+
+<https://github.com/trnenmic/Spine-Unity-Tool>
 
 ## Examples
 
-Raptor (<http://www.stagexl.org/show/spine/raptor/example.html>)  
-Tank (<http://www.stagexl.org/show/spine/tank/example.html>)  
-Stretchyman (<http://www.stagexl.org/show/spine/stretchyman/example.html>)  
-SpineBoy (<http://www.stagexl.org/show/spine/spineboy/example.html>)  
-SpineBoy Mesh (<http://www.stagexl.org/show/spine/spineboy-mesh/example.html>)  
-Goblins (<http://www.stagexl.org/show/spine/goblins-ffd/example.html>)  
-PowerUp (<http://www.stagexl.org/show/spine/powerup/example.html>)  
-Hero (<http://www.stagexl.org/show/spine/hero/example.html>)  
-Combined (<http://www.stagexl.org/show/spine/texture-atlas/example.html>)    
+End of Line (upcoming game promo) 
+<https://www.digital-shard.com/test/2017-05-11/template.html>
 
 ## Spine Runtime
 
-Based on the spine-as3 runtime (2016-12-17)
-This runtime supports the export format and features of Spine v3.5.    
+Based on StageXL for Spine:
 
+<https://github.com/bp74/StageXL_Spine>
+ 
+See StageXL and Spine for detailed info:
+
+<https://github.com/bp74/StageXL>
 <https://github.com/EsotericSoftware/spine-runtimes/tree/master/spine-as3>  
 
-## Spine License
-  
+## License
+
+#Spine
+
 Spine Runtimes Software License v2.5    
   
 Copyright (c) 2013-2016, Esoteric Software  
@@ -54,3 +59,26 @@ IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE  
 POSSIBILITY OF SUCH DAMAGE.  
 
+#StageXL
+
+StageXL: Simplified BSD License
+
+Copyright (c) 2016, Bernhard Pichler All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+# StageXL_Spine
+
+Copyright (c) 2014, Bernhard Pichler
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

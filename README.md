@@ -13,7 +13,8 @@ Spine Unity Tool link:
 
 ## Examples
 
-End of Line (upcoming game promo) 
+End of Line (upcoming game promo)
+ 
 <https://www.digital-shard.com/test/2017-05-11/template.html>
 
 ## Spine Runtime
@@ -25,6 +26,7 @@ Based on StageXL for Spine:
 See StageXL and Spine for detailed info:
 
 <https://github.com/bp74/StageXL>
+
 <https://github.com/EsotericSoftware/spine-runtimes/tree/master/spine-as3>  
 
 ## License

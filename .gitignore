@@ -1,0 +1,10 @@
+.buildlog
+.build
+.DS_Store
+.idea
+.packages
+.pub/
+lib/
+build/
+packages
+/.gitignore

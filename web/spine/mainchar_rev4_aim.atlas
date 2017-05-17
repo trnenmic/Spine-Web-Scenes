@@ -1,0 +1,146 @@
+
+mainchar_rev4_aim.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_foot
+  rotate: false
+  xy: 706, 226
+  size: 89, 77
+  orig: 89, 77
+  offset: 0, 0
+  index: -1
+L_forearm2
+  rotate: true
+  xy: 617, 18
+  size: 122, 107
+  orig: 122, 107
+  offset: 0, 0
+  index: -1
+L_forearm3
+  rotate: false
+  xy: 467, 19
+  size: 148, 117
+  orig: 148, 117
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: false
+  xy: 797, 266
+  size: 54, 37
+  orig: 54, 37
+  offset: 0, 0
+  index: -1
+L_hand_back
+  rotate: false
+  xy: 516, 319
+  size: 52, 32
+  orig: 52, 32
+  offset: 0, 0
+  index: -1
+L_leg
+  rotate: false
+  xy: 462, 138
+  size: 122, 177
+  orig: 122, 177
+  offset: 0, 0
+  index: -1
+L_shin
+  rotate: false
+  xy: 946, 362
+  size: 72, 147
+  orig: 72, 147
+  offset: 0, 0
+  index: -1
+L_shoulder
+  rotate: false
+  xy: 275, 137
+  size: 185, 178
+  orig: 185, 178
+  offset: 0, 0
+  index: -1
+R_foot
+  rotate: true
+  xy: 886, 305
+  size: 71, 58
+  orig: 71, 58
+  offset: 0, 0
+  index: -1
+R_hand2
+  rotate: false
+  xy: 730, 305
+  size: 154, 71
+  orig: 154, 71
+  offset: 0, 0
+  index: -1
+R_shin
+  rotate: true
+  xy: 586, 142
+  size: 82, 136
+  orig: 82, 136
+  offset: 0, 0
+  index: -1
+R_shoulderpad
+  rotate: false
+  xy: 724, 152
+  size: 68, 72
+  orig: 68, 72
+  offset: 0, 0
+  index: -1
+eyelid
+  rotate: false
+  xy: 2, 2
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 17
+  size: 271, 298
+  orig: 271, 298
+  offset: 0, 0
+  index: -1
+head2
+  rotate: false
+  xy: 586, 226
+  size: 118, 125
+  orig: 118, 125
+  offset: 0, 0
+  index: -1
+knee
+  rotate: false
+  xy: 946, 329
+  size: 36, 31
+  orig: 36, 31
+  offset: 0, 0
+  index: -1
+lower-body
+  rotate: true
+  xy: 275, 21
+  size: 114, 190
+  orig: 114, 190
+  offset: 0, 0
+  index: -1
+shotgun_01_muzzle
+  rotate: false
+  xy: 516, 353
+  size: 212, 156
+  orig: 212, 156
+  offset: 0, 0
+  index: -1
+shotgun_01_small
+  rotate: false
+  xy: 2, 317
+  size: 512, 192
+  orig: 512, 192
+  offset: 0, 0
+  index: -1
+upper-body2
+  rotate: true
+  xy: 730, 378
+  size: 131, 214
+  orig: 131, 214
+  offset: 0, 0
+  index: -1

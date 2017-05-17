@@ -1,0 +1,20 @@
+
+todd.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: false
+  xy: 2, 2
+  size: 73, 101
+  orig: 73, 101
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 77, 61
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1

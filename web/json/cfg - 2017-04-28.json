@@ -1,0 +1,875 @@
+{
+    "stages": [
+        {
+            "id": "intro_scene",
+            "width": 640,
+            "height": 640,
+            "group": "",
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": true,
+            "moduleShootAim": true,
+            "moduleDialogue": true,
+            "moduleQuote": false,
+            "moduleFight": false,
+            "moduleCharacter": "none",
+            "useLocalAssets": false,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 374,
+                    "y": -368,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": 105,
+                    "y": -368,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": -427,
+                    "y": -368,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 628,
+                    "y": -368,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": -148,
+                    "y": -368,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm",
+                    "x": -680,
+                    "y": -368,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "garry",
+                    "x": -266,
+                    "y": -556,
+                    "sort": 7,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "main_char_rev_5",
+                    "skin": "hero",
+                    "idle": "",
+                    "isActor": false
+                },
+                {
+                    "name": "SpineGameObjectai_rev_2",
+                    "x": -83,
+                    "y": -558,
+                    "sort": 8,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "ai_rev_2",
+                    "skin": "ai",
+                    "idle": "",
+                    "isActor": false
+                },
+                {
+                    "name": "Player",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 9,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "main_char_rev_5",
+                    "skin": "hero",
+                    "idle": "",
+                    "isActor": true
+                },
+                {
+                    "name": "basic_crawler",
+                    "x": 312,
+                    "y": -556,
+                    "sort": 10,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "crawler",
+                    "skin": "crawler",
+                    "idle": "",
+                    "isActor": false
+                },
+                {
+                    "name": "basic_crawler1",
+                    "x": 590,
+                    "y": -556,
+                    "sort": 11,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "crawler",
+                    "skin": "crawler",
+                    "idle": "",
+                    "isActor": false
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "PointLight",
+                    "x": -17,
+                    "y": -390,
+                    "sort": 0,
+                    "scaleX": 4.0,
+                    "scaleY": 4.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "SpotLight",
+                    "x": -10,
+                    "y": -434,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.8700000047683716,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                }
+            ]
+        },
+        {
+            "id": "character_hero_scene",
+            "width": 640,
+            "height": 640,
+            "group": "",
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": true,
+            "moduleFight": false,
+            "moduleCharacter": "hero",
+            "useLocalAssets": false,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": 105,
+                    "y": -368,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": -146,
+                    "y": -368,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 628,
+                    "y": -368,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": -427,
+                    "y": -368,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 374,
+                    "y": -368,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "Player",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 2,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "main_char_rev_5",
+                    "skin": "hero",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "PointLight",
+                    "x": 6,
+                    "y": -366,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                }
+            ]
+        },
+        {
+            "id": "character_ai_scene",
+            "width": 640,
+            "height": 640,
+            "group": "",
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": true,
+            "moduleFight": false,
+            "moduleCharacter": "ai",
+            "useLocalAssets": false,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": -397,
+                    "y": -366,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm",
+                    "x": -651,
+                    "y": -366,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": -118,
+                    "y": -366,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": 135,
+                    "y": -366,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 404,
+                    "y": -366,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 696,
+                    "y": -366,
+                    "sort": 6,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "ai",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 4,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "ai_rev_2",
+                    "skin": "ai",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "SpotLight1",
+                    "x": 10,
+                    "y": -282,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                },
+                {
+                    "name": "PointLight2",
+                    "x": -323,
+                    "y": -245,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "PointLight3",
+                    "x": 332,
+                    "y": -212,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "PointLight",
+                    "x": 10,
+                    "y": -416,
+                    "sort": 0,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "PointLight1",
+                    "x": 6,
+                    "y": -443,
+                    "sort": 0,
+                    "scaleX": 4.0,
+                    "scaleY": 4.0,
+                    "alpha": 0.23399999737739564,
+                    "type": "Point"
+                },
+                {
+                    "name": "SpotLight",
+                    "x": 6,
+                    "y": -337,
+                    "sort": 0,
+                    "scaleX": 0.5099999904632568,
+                    "scaleY": 1.5499999523162842,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                }
+            ]
+        },
+        {
+            "id": "character_garry_scene",
+            "width": 640,
+            "height": 640,
+            "group": "",
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": true,
+            "moduleFight": false,
+            "moduleCharacter": "garry",
+            "useLocalAssets": false,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": -427,
+                    "y": -368,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 374,
+                    "y": -368,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": -148,
+                    "y": -368,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 628,
+                    "y": -368,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": 105,
+                    "y": -368,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "garry",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 2,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "main_char_rev_5",
+                    "skin": "generic",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "PointLight",
+                    "x": 6,
+                    "y": -366,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                }
+            ]
+        },
+        {
+            "id": "character_todd_scene",
+            "width": 640,
+            "height": 640,
+            "group": "",
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": true,
+            "moduleFight": false,
+            "moduleCharacter": "todd",
+            "useLocalAssets": false,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": -8,
+                    "y": -368,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 515,
+                    "y": -368,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": -261,
+                    "y": -368,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": -540,
+                    "y": -368,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 261,
+                    "y": -368,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "todd",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 2,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "todd",
+                    "skin": "default",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "PointLight",
+                    "x": -32,
+                    "y": -405,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                }
+            ]
+        },
+        {
+            "id": "fight_scene",
+            "width": 640,
+            "height": 640,
+            "group": "",
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": false,
+            "moduleShootAim": false,
+            "moduleDialogue": false,
+            "moduleQuote": false,
+            "moduleFight": true,
+            "moduleCharacter": "none",
+            "useLocalAssets": false,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 628,
+                    "y": -368,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm",
+                    "x": -680,
+                    "y": -368,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": 105,
+                    "y": -368,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": -427,
+                    "y": -368,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 374,
+                    "y": -368,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": -148,
+                    "y": -368,
+                    "sort": 6,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "hero",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 3,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "main_char_rev_5",
+                    "skin": "hero",
+                    "idle": "",
+                    "isActor": true
+                },
+                {
+                    "name": "basic_crawler",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 7,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "crawler",
+                    "skin": "crawler",
+                    "idle": "",
+                    "isActor": false
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "SpotLight",
+                    "x": 19,
+                    "y": -362,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                },
+                {
+                    "name": "PointLight",
+                    "x": 22,
+                    "y": -405,
+                    "sort": 0,
+                    "scaleX": 4.0,
+                    "scaleY": 4.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "SpotLight1",
+                    "x": -629,
+                    "y": -362,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                },
+                {
+                    "name": "SpotLight2",
+                    "x": 674,
+                    "y": -362,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                }
+            ]
+        },
+        {
+            "id": "weapons_scene",
+            "width": 640,
+            "height": 640,
+            "group": "",
+            "moduleResize": true,
+            "moduleMouseFocus": true,
+            "moduleWalk": true,
+            "moduleShootAim": true,
+            "moduleDialogue": false,
+            "moduleQuote": false,
+            "moduleFight": false,
+            "moduleCharacter": "none",
+            "useLocalAssets": false,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 374,
+                    "y": -368,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm",
+                    "x": -680,
+                    "y": -368,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 628,
+                    "y": -368,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": 105,
+                    "y": -368,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": -148,
+                    "y": -368,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": -427,
+                    "y": -368,
+                    "sort": 6,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "hero",
+                    "x": 0,
+                    "y": -556,
+                    "sort": 4,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "main_char_rev_5",
+                    "skin": "hero",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "SpotLight1",
+                    "x": 483,
+                    "y": -410,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                },
+                {
+                    "name": "PointLight2",
+                    "x": -529,
+                    "y": -475,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "PointLight1",
+                    "x": 485,
+                    "y": -475,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                },
+                {
+                    "name": "SpotLight2",
+                    "x": -532,
+                    "y": -410,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                },
+                {
+                    "name": "SpotLight",
+                    "x": 5,
+                    "y": -410,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                },
+                {
+                    "name": "PointLight",
+                    "x": 7,
+                    "y": -475,
+                    "sort": 0,
+                    "scaleX": 2.0,
+                    "scaleY": 2.0,
+                    "alpha": 1.0,
+                    "type": "Point"
+                }
+            ]
+        }
+    ],
+    "name": "scene",
+    "useGlobalAssets": true,
+    "groups": [
+        "characters"
+    ]
+}

@@ -1,0 +1,538 @@
+
+main_char_rev_5.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body/generic/chest
+  rotate: true
+  xy: 544, 452
+  size: 58, 125
+  orig: 58, 125
+  offset: 0, 0
+  index: -1
+body/generic/head
+  rotate: false
+  xy: 300, 118
+  size: 33, 41
+  orig: 33, 41
+  offset: 0, 0
+  index: -1
+body/generic/l_arm
+  rotate: false
+  xy: 149, 66
+  size: 86, 43
+  orig: 86, 43
+  offset: 0, 0
+  index: -1
+body/generic/l_leg
+  rotate: false
+  xy: 76, 234
+  size: 76, 137
+  orig: 76, 137
+  offset: 0, 0
+  index: -1
+body/generic/r_arm
+  rotate: false
+  xy: 413, 356
+  size: 69, 45
+  orig: 69, 45
+  offset: 0, 0
+  index: -1
+body/generic/r_leg
+  rotate: false
+  xy: 211, 367
+  size: 55, 143
+  orig: 55, 143
+  offset: 0, 0
+  index: -1
+body/hero/0_chest
+  rotate: true
+  xy: 268, 400
+  size: 58, 132
+  orig: 58, 132
+  offset: 0, 0
+  index: -1
+body/hero/0_down_head
+  rotate: false
+  xy: 376, 352
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+body/hero/0_down_l_hand
+  rotate: false
+  xy: 343, 86
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+body/hero/0_down_l_hand_pistol
+  rotate: false
+  xy: 385, 158
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+body/hero/0_down_r_hand
+  rotate: true
+  xy: 443, 203
+  size: 30, 25
+  orig: 30, 25
+  offset: 0, 0
+  index: -1
+body/hero/0_head
+  rotate: false
+  xy: 384, 194
+  size: 29, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+body/hero/0_l_arm
+  rotate: true
+  xy: 76, 164
+  size: 68, 75
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+body/hero/0_l_hand_front
+  rotate: false
+  xy: 446, 171
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+body/hero/0_l_hand_side
+  rotate: false
+  xy: 501, 283
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+body/hero/0_l_leg
+  rotate: false
+  xy: 2, 213
+  size: 72, 146
+  orig: 72, 146
+  offset: 0, 0
+  index: -1
+body/hero/0_left_head
+  rotate: false
+  xy: 335, 118
+  size: 31, 39
+  orig: 31, 39
+  offset: 0, 0
+  index: -1
+body/hero/0_r_arm
+  rotate: true
+  xy: 74, 93
+  size: 69, 73
+  orig: 69, 73
+  offset: 0, 0
+  index: -1
+body/hero/0_r_hand_front
+  rotate: false
+  xy: 58, 61
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+body/hero/0_r_hand_side
+  rotate: false
+  xy: 52, 29
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+body/hero/0_r_leg
+  rotate: false
+  xy: 2, 361
+  size: 72, 149
+  orig: 72, 149
+  offset: 0, 0
+  index: -1
+body/hero/0_r_middle_finger
+  rotate: true
+  xy: 74, 29
+  size: 30, 16
+  orig: 30, 16
+  offset: 0, 0
+  index: -1
+body/hero/0_right_head
+  rotate: true
+  xy: 296, 161
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+body/hero/0_up_head
+  rotate: false
+  xy: 484, 357
+  size: 30, 44
+  orig: 30, 44
+  offset: 0, 0
+  index: -1
+body/hero/0_up_l_arm
+  rotate: true
+  xy: 268, 352
+  size: 46, 106
+  orig: 46, 106
+  offset: 0, 0
+  index: -1
+body/hero/0_up_l_arm_pistol
+  rotate: true
+  xy: 154, 196
+  size: 55, 80
+  orig: 55, 80
+  offset: 0, 0
+  index: -1
+body/hero/0_up_r_forearm
+  rotate: false
+  xy: 415, 291
+  size: 47, 63
+  orig: 47, 63
+  offset: 0, 0
+  index: -1
+body/hero/0_up_r_shoulder
+  rotate: true
+  xy: 300, 90
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1
+body/hero/0_up_r_shoulder_pistol
+  rotate: true
+  xy: 340, 233
+  size: 30, 60
+  orig: 30, 60
+  offset: 0, 0
+  index: -1
+body/hero/300_chest
+  rotate: true
+  xy: 402, 403
+  size: 47, 113
+  orig: 47, 113
+  offset: 0, 0
+  index: -1
+body/hero/300_head
+  rotate: true
+  xy: 858, 401
+  size: 45, 44
+  orig: 45, 44
+  offset: 0, 0
+  index: -1
+body/hero/300_l_arm
+  rotate: false
+  xy: 792, 462
+  size: 119, 48
+  orig: 119, 48
+  offset: 0, 0
+  index: -1
+body/hero/300_l_arm_pistol
+  rotate: true
+  xy: 344, 265
+  size: 85, 53
+  orig: 85, 53
+  offset: 0, 0
+  index: -1
+body/hero/300_l_hand
+  rotate: true
+  xy: 431, 235
+  size: 34, 28
+  orig: 34, 28
+  offset: 0, 0
+  index: -1
+body/hero/300_l_hand_pistol
+  rotate: true
+  xy: 501, 315
+  size: 40, 20
+  orig: 40, 20
+  offset: 0, 0
+  index: -1
+body/hero/300_r_arm
+  rotate: false
+  xy: 767, 396
+  size: 89, 50
+  orig: 89, 50
+  offset: 0, 0
+  index: -1
+body/hero/300_r_hand
+  rotate: true
+  xy: 402, 233
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+body/hero/90_chest
+  rotate: true
+  xy: 671, 456
+  size: 54, 119
+  orig: 54, 119
+  offset: 0, 0
+  index: -1
+body/hero/90_head
+  rotate: true
+  xy: 336, 194
+  size: 37, 46
+  orig: 37, 46
+  offset: 0, 0
+  index: -1
+body/hero/90_l_arm
+  rotate: true
+  xy: 236, 234
+  size: 36, 102
+  orig: 36, 102
+  offset: 0, 0
+  index: -1
+body/hero/90_l_hand
+  rotate: false
+  xy: 415, 195
+  size: 26, 36
+  orig: 26, 36
+  offset: 0, 0
+  index: -1
+body/hero/90_l_leg
+  rotate: true
+  xy: 268, 460
+  size: 50, 147
+  orig: 50, 147
+  offset: 0, 0
+  index: -1
+body/hero/90_r_arm
+  rotate: true
+  xy: 671, 414
+  size: 40, 94
+  orig: 40, 94
+  offset: 0, 0
+  index: -1
+body/hero/90_r_hand
+  rotate: false
+  xy: 988, 372
+  size: 34, 47
+  orig: 34, 47
+  offset: 0, 0
+  index: -1
+body/hero/90_r_leg
+  rotate: false
+  xy: 2, 61
+  size: 54, 150
+  orig: 54, 150
+  offset: 0, 0
+  index: -1
+body/hero/chest_45
+  rotate: true
+  xy: 417, 452
+  size: 58, 125
+  orig: 58, 125
+  offset: 0, 0
+  index: -1
+body/hero/head
+  rotate: true
+  xy: 629, 413
+  size: 37, 40
+  orig: 37, 40
+  offset: 0, 0
+  index: -1
+body/hero/l_arm
+  rotate: false
+  xy: 149, 111
+  size: 86, 43
+  orig: 86, 43
+  offset: 0, 0
+  index: -1
+body/hero/l_arm_pistol
+  rotate: true
+  xy: 2, 2
+  size: 57, 48
+  orig: 57, 48
+  offset: 0, 0
+  index: -1
+body/hero/l_forearm_pistol
+  rotate: false
+  xy: 464, 264
+  size: 18, 26
+  orig: 18, 26
+  offset: 0, 0
+  index: -1
+body/hero/l_hand
+  rotate: true
+  xy: 74, 5
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+body/hero/l_hand_flashlight_pistol
+  rotate: false
+  xy: 415, 271
+  size: 47, 18
+  orig: 47, 18
+  offset: 0, 0
+  index: -1
+body/hero/l_hand_hud
+  rotate: false
+  xy: 52, 4
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+body/hero/l_leg
+  rotate: false
+  xy: 76, 373
+  size: 76, 137
+  orig: 76, 137
+  offset: 0, 0
+  index: -1
+body/hero/neck
+  rotate: true
+  xy: 419, 162
+  size: 31, 25
+  orig: 31, 25
+  offset: 0, 0
+  index: -1
+body/hero/r_arm
+  rotate: true
+  xy: 237, 85
+  size: 69, 45
+  orig: 69, 45
+  offset: 0, 0
+  index: -1
+body/hero/r_arm_pistol
+  rotate: false
+  xy: 236, 195
+  size: 98, 37
+  orig: 98, 37
+  offset: 0, 0
+  index: -1
+body/hero/r_hand_pistol
+  rotate: false
+  xy: 87, 73
+  size: 30, 18
+  orig: 30, 18
+  offset: 0, 0
+  index: -1
+body/hero/r_hand_shoot
+  rotate: false
+  xy: 119, 73
+  size: 28, 18
+  orig: 28, 18
+  offset: 0, 0
+  index: -1
+body/hero/r_leg
+  rotate: false
+  xy: 154, 367
+  size: 55, 143
+  orig: 55, 143
+  offset: 0, 0
+  index: -1
+guns/pistol_aim
+  rotate: false
+  xy: 153, 156
+  size: 72, 38
+  orig: 72, 38
+  offset: 0, 0
+  index: -1
+guns/pistol_aim_r_pistol_slot
+  rotate: true
+  xy: 336, 159
+  size: 33, 47
+  orig: 33, 47
+  offset: 0, 0
+  index: -1
+guns/pistol_bottom
+  rotate: false
+  xy: 284, 87
+  size: 14, 67
+  orig: 14, 67
+  offset: 0, 0
+  index: -1
+guns/pistol_top
+  rotate: false
+  xy: 486, 290
+  size: 13, 65
+  orig: 13, 65
+  offset: 0, 0
+  index: -1
+guns/rifle_aim
+  rotate: false
+  xy: 517, 406
+  size: 110, 44
+  orig: 110, 44
+  offset: 0, 0
+  index: -1
+guns/rifle_backpack
+  rotate: false
+  xy: 154, 253
+  size: 80, 112
+  orig: 80, 112
+  offset: 0, 0
+  index: -1
+guns/rifle_bottom
+  rotate: true
+  xy: 792, 448
+  size: 12, 105
+  orig: 12, 105
+  offset: 0, 0
+  index: -1
+guns/rifle_top
+  rotate: false
+  xy: 58, 105
+  size: 14, 106
+  orig: 14, 106
+  offset: 0, 0
+  index: -1
+guns/shotgun
+  rotate: false
+  xy: 913, 467
+  size: 109, 43
+  orig: 109, 43
+  offset: 0, 0
+  index: -1
+guns/shotgun_aim
+  rotate: false
+  xy: 913, 421
+  size: 96, 44
+  orig: 96, 44
+  offset: 0, 0
+  index: -1
+guns/shotgun_aim_r_special_slot
+  rotate: true
+  xy: 464, 292
+  size: 62, 20
+  orig: 62, 20
+  offset: 0, 0
+  index: -1
+guns/shotgun_backpack
+  rotate: false
+  xy: 227, 156
+  size: 67, 37
+  orig: 67, 37
+  offset: 0, 0
+  index: -1
+guns/shotgun_backpack_left
+  rotate: true
+  xy: 237, 62
+  size: 21, 42
+  orig: 21, 42
+  offset: 0, 0
+  index: -1
+guns/shotgun_bottom
+  rotate: false
+  xy: 399, 267
+  size: 14, 83
+  orig: 14, 83
+  offset: 0, 0
+  index: -1
+guns/shotgun_muzzle
+  rotate: false
+  xy: 236, 272
+  size: 106, 78
+  orig: 106, 78
+  offset: 0, 0
+  index: -1
+guns/shotgun_top
+  rotate: true
+  xy: 904, 406
+  size: 13, 82
+  orig: 13, 82
+  offset: 0, 0
+  index: -1

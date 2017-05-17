@@ -1,0 +1,283 @@
+{
+    "stages": [
+        {
+            "id": "html_scene",
+            "width": 1024,
+            "height": 1024,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1",
+                    "x": 3103,
+                    "y": -645,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1"
+                },
+                {
+                    "name": "hall_plain_v1_2",
+                    "x": -302,
+                    "y": -646,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1"
+                },
+                {
+                    "name": "room_plain_v1_1",
+                    "x": 1863,
+                    "y": -440,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1"
+                },
+                {
+                    "name": "room_plain_v1",
+                    "x": 1160,
+                    "y": -440,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1"
+                },
+                {
+                    "name": "room_corner_L",
+                    "x": 542,
+                    "y": -431,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_L"
+                },
+                {
+                    "name": "room_corner_L_1",
+                    "x": 2213,
+                    "y": -434,
+                    "sort": 6,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_L"
+                },
+                {
+                    "name": "hall_endL",
+                    "x": -772,
+                    "y": -645,
+                    "sort": 7,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_endL"
+                },
+                {
+                    "name": "hall_endL_1",
+                    "x": 3550,
+                    "y": -645,
+                    "sort": 8,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_endL"
+                },
+                {
+                    "name": "splitter_v1_1",
+                    "x": -6,
+                    "y": -645,
+                    "sort": 9,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1"
+                },
+                {
+                    "name": "splitter_v1",
+                    "x": -520,
+                    "y": -645,
+                    "sort": 10,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1"
+                },
+                {
+                    "name": "splitter_v1_3",
+                    "x": 3311,
+                    "y": -645,
+                    "sort": 11,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1"
+                },
+                {
+                    "name": "splitter_v1_2",
+                    "x": 2667,
+                    "y": -645,
+                    "sort": 12,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "Player",
+                    "x": 0,
+                    "y": -1024,
+                    "sort": 15,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "source": "standard_male_aim_r",
+                    "skin": "hero",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [
+                {
+                    "name": "html_scene__TriggerInput1__1",
+                    "x": 1362,
+                    "y": -976,
+                    "type": "DISTANCE+INPUT",
+                    "onSkeleton": "",
+                    "onElement": "",
+                    "animation": "",
+                    "distance": 64,
+                    "controls": ""
+                },
+                {
+                    "name": "html_scene__TriggerInput__1",
+                    "x": 486,
+                    "y": -622,
+                    "type": "DISTANCE+INPUT",
+                    "onSkeleton": "",
+                    "onElement": "",
+                    "animation": "",
+                    "distance": 64,
+                    "controls": ""
+                }
+            ],
+            "lights": [
+                {
+                    "name": "SpotLight",
+                    "x": 1368,
+                    "y": -521,
+                    "sort": 0,
+                    "scaleX": 3.8379194736480715,
+                    "scaleY": 3.8379194736480715,
+                    "alpha": 1.0,
+                    "type": "Spot"
+                },
+                {
+                    "name": "PointLight2",
+                    "x": 2679,
+                    "y": -620,
+                    "sort": 0,
+                    "scaleX": 1.5391420125961304,
+                    "scaleY": 1.5391420125961304,
+                    "alpha": 0.19607843458652497,
+                    "type": "Point"
+                },
+                {
+                    "name": "PointLight1",
+                    "x": -37,
+                    "y": -607,
+                    "sort": 0,
+                    "scaleX": 1.5391420125961304,
+                    "scaleY": 1.5391420125961304,
+                    "alpha": 0.19607843458652497,
+                    "type": "Point"
+                },
+                {
+                    "name": "PointLight",
+                    "x": 1369,
+                    "y": -921,
+                    "sort": 0,
+                    "scaleX": 4.276461601257324,
+                    "scaleY": 4.276461601257324,
+                    "alpha": 1.0,
+                    "type": "Point"
+                }
+            ]
+        },
+        {
+            "id": "light_test",
+            "width": 1024,
+            "height": 1024,
+            "bitmaps": [
+                {
+                    "name": "hall_endL1",
+                    "x": 817,
+                    "y": -644,
+                    "sort": 1,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_endL"
+                },
+                {
+                    "name": "hall_endL",
+                    "x": -360,
+                    "y": -644,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_endL"
+                },
+                {
+                    "name": "hall_ladder_wall_a2",
+                    "x": 248,
+                    "y": -644,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_ladder_wall_a2"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "Player",
+                    "x": 0,
+                    "y": -1024,
+                    "sort": 15,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "source": "standard_male_aim_r",
+                    "skin": "hero",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [],
+            "lights": [
+                {
+                    "name": "SpotLight_x",
+                    "x": 242,
+                    "y": -554,
+                    "sort": 0,
+                    "scaleX": 1.5708556175231934,
+                    "scaleY": 1.4925029277801514,
+                    "alpha": 0.5659999847412109,
+                    "type": "Spot"
+                },
+                {
+                    "name": "PointLight1",
+                    "x": -242,
+                    "y": -491,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "alpha": 0.5339999794960022,
+                    "type": "Point"
+                },
+                {
+                    "name": "PointLight_x",
+                    "x": 35,
+                    "y": -491,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "alpha": 0.3970000147819519,
+                    "type": "Point"
+                }
+            ]
+        }
+    ],
+    "name": "scene"
+}

@@ -1,0 +1,159 @@
+{
+    "stages": [
+        {
+            "id": "html_scene",
+            "width": 1024,
+            "height": 1024,
+            "bitmaps": [
+                {
+                    "name": "hall_plain_v1",
+                    "x": 1996,
+                    "y": -528,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1"
+                },
+                {
+                    "name": "room_plain_v1",
+                    "x": 223,
+                    "y": -532,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1"
+                },
+                {
+                    "name": "hall_plain_v1_2",
+                    "x": -1408,
+                    "y": -530,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1"
+                },
+                {
+                    "name": "room_plain_v1_1",
+                    "x": 926,
+                    "y": -532,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1"
+                },
+                {
+                    "name": "room_corner_L",
+                    "x": -614,
+                    "y": -531,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_L"
+                },
+                {
+                    "name": "room_corner_L_1",
+                    "x": 1057,
+                    "y": -534,
+                    "sort": 6,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_L"
+                },
+                {
+                    "name": "hall_endL",
+                    "x": -1594,
+                    "y": -528,
+                    "sort": 7,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_endL"
+                },
+                {
+                    "name": "hall_endL_1",
+                    "x": 2728,
+                    "y": -526,
+                    "sort": 8,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_endL"
+                },
+                {
+                    "name": "splitter_v1_3",
+                    "x": 2570,
+                    "y": -528,
+                    "sort": 9,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1"
+                },
+                {
+                    "name": "splitter_v1_2",
+                    "x": 1925,
+                    "y": -528,
+                    "sort": 10,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1"
+                },
+                {
+                    "name": "splitter_v1",
+                    "x": -1262,
+                    "y": -528,
+                    "sort": 11,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1"
+                },
+                {
+                    "name": "splitter_v1_1",
+                    "x": -748,
+                    "y": -528,
+                    "sort": 12,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1"
+                }
+            ],
+            "images": [],
+            "skeletons": [
+                {
+                    "name": "Player",
+                    "x": 695,
+                    "y": -488,
+                    "sort": 13,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "source": "mainchar_rev4_aim",
+                    "skin": "default",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [
+                {
+                    "name": "html_scene__TriggerInput1__1",
+                    "x": 792,
+                    "y": -483,
+                    "type": "DISTANCE+INPUT",
+                    "onSkeleton": "",
+                    "onElement": "",
+                    "animation": "",
+                    "distance": 64,
+                    "controls": ""
+                },
+                {
+                    "name": "html_scene__TriggerInput__1",
+                    "x": -84,
+                    "y": -129,
+                    "type": "DISTANCE+INPUT",
+                    "onSkeleton": "",
+                    "onElement": "",
+                    "animation": "",
+                    "distance": 64,
+                    "controls": ""
+                }
+            ]
+        }
+    ],
+    "name": "scene"
+}

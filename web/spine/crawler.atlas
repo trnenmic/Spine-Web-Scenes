@@ -1,0 +1,237 @@
+
+crawler.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crawler/body
+  rotate: false
+  xy: 2, 169
+  size: 364, 85
+  orig: 364, 85
+  offset: 0, 0
+  index: -1
+crawler/jaw_1
+  rotate: false
+  xy: 2, 7
+  size: 76, 45
+  orig: 76, 45
+  offset: 0, 0
+  index: -1
+crawler/jaw_2
+  rotate: false
+  xy: 80, 26
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+crawler/l_forearm
+  rotate: false
+  xy: 368, 141
+  size: 140, 113
+  orig: 140, 113
+  offset: 0, 0
+  index: -1
+crawler/l_forearm_dmg
+  rotate: false
+  xy: 510, 141
+  size: 140, 113
+  orig: 140, 113
+  offset: 0, 0
+  index: -1
+crawler/l_heel_blood
+  rotate: false
+  xy: 114, 26
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1
+crawler/l_hip_blood
+  rotate: false
+  xy: 846, 180
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+crawler/l_leg
+  rotate: false
+  xy: 652, 149
+  size: 95, 105
+  orig: 95, 105
+  offset: 0, 0
+  index: -1
+crawler/l_thigh_blood
+  rotate: false
+  xy: 80, 2
+  size: 27, 22
+  orig: 27, 22
+  offset: 0, 0
+  index: -1
+crawler/neck_01_blood
+  rotate: false
+  xy: 890, 208
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+crawler/neck_02_blood
+  rotate: false
+  xy: 292, 90
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+crawler/pelvis_blood
+  rotate: false
+  xy: 138, 2
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+crawler/skull_blood
+  rotate: false
+  xy: 138, 2
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+crawler/r_arm_blood
+  rotate: false
+  xy: 292, 61
+  size: 21, 27
+  orig: 21, 27
+  offset: 0, 0
+  index: -1
+crawler/r_forearm
+  rotate: false
+  xy: 2, 54
+  size: 143, 113
+  orig: 143, 113
+  offset: 0, 0
+  index: -1
+crawler/r_forearm_dmg
+  rotate: false
+  xy: 147, 54
+  size: 143, 113
+  orig: 143, 113
+  offset: 0, 0
+  index: -1
+crawler/r_heel_blood
+  rotate: false
+  xy: 138, 26
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1
+crawler/r_hip_blood
+  rotate: false
+  xy: 890, 229
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+crawler/r_leg
+  rotate: false
+  xy: 749, 149
+  size: 95, 105
+  orig: 95, 105
+  offset: 0, 0
+  index: -1
+crawler/r_thigh_blood
+  rotate: false
+  xy: 109, 2
+  size: 27, 22
+  orig: 27, 22
+  offset: 0, 0
+  index: -1
+crawler/skull
+  rotate: false
+  xy: 292, 120
+  size: 42, 47
+  orig: 42, 47
+  offset: 0, 0
+  index: -1
+crawler/skull_dmg
+  rotate: false
+  xy: 846, 207
+  size: 42, 47
+  orig: 42, 47
+  offset: 0, 0
+  index: -1
+crawler/spine_02_blood
+  rotate: false
+  xy: 872, 185
+  size: 16, 20
+  orig: 16, 20
+  offset: 0, 0
+  index: -1
+crawler/spine_03_blood
+  rotate: false
+  xy: 890, 190
+  size: 20, 16
+  orig: 20, 16
+  offset: 0, 0
+  index: -1
+crawler/spine_04_blood
+  rotate: false
+  xy: 162, 35
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+crawler/spine_05_blood
+  rotate: false
+  xy: 160, 2
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+crawler/tail_02_blood
+  rotate: false
+  xy: 846, 157
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+crawler/tail_05_blood
+  rotate: false
+  xy: 846, 157
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+crawler/tail_03_blood
+  rotate: false
+  xy: 916, 237
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+crawler/tail_04_blood
+  rotate: false
+  xy: 916, 237
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+crawler/tail_06_blood
+  rotate: false
+  xy: 939, 240
+  size: 20, 14
+  orig: 20, 14
+  offset: 0, 0
+  index: -1
+crawler/tail_07_blood
+  rotate: false
+  xy: 939, 240
+  size: 20, 14
+  orig: 20, 14
+  offset: 0, 0
+  index: -1
+crawler/tongue
+  rotate: true
+  xy: 336, 131
+  size: 36, 16
+  orig: 36, 16
+  offset: 0, 0
+  index: -1

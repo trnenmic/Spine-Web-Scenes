@@ -1,0 +1,56 @@
+{
+	"stage": [
+		{
+			"id": "stage_1",
+			"width": 1024,
+			"height": 1024,
+			"bitmap": [
+				{
+					"name": "background",
+					"path": "img/hall_main_char.jpg",
+					"instance": [
+						{
+							"name": "background",
+							"x": 0,
+							"y": 0
+						}
+					]
+				},
+				{
+					"name": "object1",
+					"path": "img/default_object1.png",
+					"instance": [
+						{
+							"name": "object1",
+							"x": 0,
+							"y": 0
+						}
+					]
+				}
+			],
+			"spine": [
+				{
+					"name": "crawler",
+					"pathJson": "spine/crawler.json",
+					"pathAtlas": "spine/crawler.atlas",
+					"instance": [
+						{
+							"name": "crawler",
+							"x": 0,
+							"y": 0,
+							"scale" : 1,
+							"skin": "crawler",
+							"isActor": true
+						}
+					]
+				}
+			],
+			"settings": [
+				{
+					"onResizeCenter": true,
+					"preset": 1
+				}
+			]
+		}
+	]
+}

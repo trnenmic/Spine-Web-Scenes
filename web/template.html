@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/default.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script class="script-dart" async type="application/dart" src="main.dart"></script>
+    <script class="script-js" async type="text/javascript" src="packages/browser/dart.js"></script>
+</head>
+<body>
+<progress max="100" value="1">
+</progress>
+<script>
+    (function () {
+        var p = document.querySelector("progress");
+
+        function inc() {
+            var pv = parseFloat(p.value);
+            pv += Math.floor(Math.random() * (10 - 5)) + 5;
+            if (pv < 30) {
+                p.value = pv + "";
+            }
+        }
+
+        for (var i = 0; i < 20; i++) {
+            setTimeout(inc, i * 500);
+        }
+    }());
+</script>
+<button id="scroll-up" class="hide">&uarr;</button>
+<div class="header">
+    <h1>End of Line</h1>
+    <button class="buy">BUY NOW</button>
+</div>
+<div class="background-filter hide"></div>
+<article class="first">
+    <div class="timeline-cover">
+        <div class="timeline-characters"></div>
+        <div class="timeline-overlay"></div>
+    </div>
+    <div class="shape">
+        <div class="head-wrapper">
+            <div class="rectangle-top">
+                <div class="rectangle-top-2">
+                    <header>
+                        <h2>2D STORY-DRIVEN SHOOTER</h2>
+                        <p></p>
+                    </header>
+                </div>
+            </div>
+            <div class="triangle-wrapper-400">
+                <div class="triangle-down-left scale-30"></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-row">
+                <div>
+                    <div class="box">
+                        <h3>What's new</h3>
+                        <p>Check our blog:</p>
+                        <a class="page-link" href="https://digital-shard.com">Find out more</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <h3>Now available at</h3>
+                        <ul>
+                            <li>Steam</li>
+                            <li>Gog</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <h3>About</h3>
+                        <p>Reveal the mysteries of empty space station where your only friend is suspicious female
+                            hologram. Fight the sneaking creatures that hide in dark shadows.</p>
+                    </div>
+                </div>
+            </div>
+            <iframe width="854" height="480" allowfullscreen class="video"
+                    src="https://www.youtube.com/embed/LLigtPWN3vE?color=white&rel=0&showinfo=0"></iframe>
+            <!--  https://www.youtube.com/embed/XGSy3_Czz8k-->
+        </div>  <!-- 640x 360 -->
+        <div class="triangle-wrapper-256">
+            <div class="triangle-up-left floater scale-10"></div>
+        </div>
+    </div>
+</article>
+<div class="fill">
+</div>
+<article class="tab-parent" id="characters">
+    <header class="black-box"></header>
+    <div class="tab-row">
+        <div class="tab-cell">
+            <a href="javascript:" class="tab-button hero current"><h3>Hero</h3></a>
+        </div>
+        <div class="tab-cell">
+            <a href="javascript:" class="tab-button ai"><h3>Ai</h3></a>
+        </div>
+        <div class="tab-cell">
+            <a href="javascript:" class="tab-button todd"><h3>Todd</h3></a>
+        </div>
+    </div>
+    <div class="tab-controller">
+        <button class="tab-previous">
+            <svg class="icon sm">
+                <use xlink:href="svg/icons/icons.svg#previous"></use>
+            </svg>
+        </button>
+        <button class="tab-next">
+            <svg class="icon sm">
+                <use xlink:href="svg/icons/icons.svg#next"></use>
+            </svg>
+        </button>
+    </div>
+    <div class="widget loop">
+        <div>
+            <canvas id="character_hero_scene" class="bg-room"></canvas>
+            <canvas class="shadow-stage"></canvas>
+            <div class="shadow-blur"></div>
+        </div>
+        <div class="ui">
+            <div class="characters">
+                <div class="character-controls">
+                    <button class="emotion talk click-1">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#talk"></use>
+                        </svg>
+                    </button>
+                    <button class="emotion heart click-2">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#love"></use>
+                        </svg>
+                    </button>
+                    <button class="emotion dislike click-3">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#dislike"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="character-box"></div>
+            </div>
+            <div class="quotes">
+                <p class="q-intro"></p>
+                <p class="q-intro">I am listening. Yeah, to my earphones.</p>
+                <p class="q-last-click">That's what I call a real persistence.</p>
+                <p class="q-click">Do you know what you are doing?</p>
+                <p class="q-click">Calm down, you don't need to hurry.</p>
+                <p class="q-click">Are you insane?</p>
+                <p class="q-click">OK, do whatever you want.</p>
+                <p class="q-click">You are quite annoying.</p>
+                <p class="q-click">I wonder why you consider this bullshit funny.</p>
+                <p class="q-intro"></p>
+                <p class="q-scroll"></p>
+                <p class="q-1">Yep, I am standing right here.</p>
+                <p class="q-1">I am fine, thanks.</p>
+                <p class="q-1">I am not usually that open, you know.</p>
+                <p class="q-1">Do you always ask so many questions, or do you really care?</p>
+                <p class="q-2">I think I can handle this.</p>
+                <p class="q-2">No, I don't need your help.</p>
+                <p class="q-2">It was tough at the beginning, but I've found their weakness.</p>
+                <p class="q-3">Shut up.</p>
+                <p class="q-3">Stop talking, scum.</p>
+                <p class="q-3">You are an asshole.</p>
+            </div>
+        </div>
+    </div>
+    <div class="widget hide">
+        <div>
+            <canvas id="character_ai_scene" class="bg-room"></canvas>
+            <canvas class="shadow-stage"></canvas>
+            <div class="shadow-blur"></div>
+        </div>
+        <div class="ui">
+            <div class="characters">
+                <div class="character-controls">
+                    <button class="emotion talk click-1">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#talk"></use>
+                        </svg>
+                    </button>
+                    <button class="emotion heart click-2">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#love"></use>
+                        </svg>
+                    </button>
+                    <button class="emotion dislike click-3">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#dislike"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="character-box"></div>
+            </div>
+            <div class="quotes">
+                <p class="q-last-click">Unstoppable.</p>
+                <p class="q-click">Are you always so impatient?</p>
+                <p class="q-click">Like a small kid.</p>
+                <p class="q-click">I hope you enjoy that.</p>
+                <p class="q-intro"></p>
+                <p class="q-intro">Oh, finally some company.</p>
+                <p class="q-intro">I like lighthearted people like you.</p>
+                <p class="q-intro">Greetings!</p>
+                <p class="q-scroll">Wait a second.</p>
+                <p class="q-scroll">I wanted to tell you something.</p>
+                <p class="q-scroll">I changed my mind.</p>
+                <p class="q-1">I don't know what you want from me.</p>
+                <p class="q-1">Maybe some other time?</p>
+                <p class="q-1">I still don't get it.</p>
+                <p class="q-2">No, I don't think I am that pretty.</p>
+                <p class="q-2">Isn't it a little bit awkward? Tell that to your girlfriend.</p>
+                <p class="q-2">That's cute, but no, I don't want to be your girlfriend.</p>
+                <p class="q-3">How can you be so rude? Leave me alone!</p>
+                <p class="q-lock-1">Now you are polite. But I already know who you are.</p>
+                <p class="q-lock-1">Stop behaving like a kid and leave me be!</p>
+                <p class="q-lock-2">That's not honest at all.</p>
+                <p class="q-lock-2">You think that I'll come back? Noway!</p>
+                <p class="q-lock-2">You are so lame.</p>
+                <p class="q-lock-3">Why are you telling me this? You want me to start crying?</p>
+                <p class="q-lock-3">I am strong woman... And... I am not... gonna... cry.</p>
+                <p class="q-lock-3">If you won't stop, I'll talk to Garry and he will give you a lesson.</p>
+                <p class="q-lock-3">Leave me be.</p>
+                <p class="q-intro-locked">Don't come back. Ever!</p>
+                <p class="q-intro-locked">I meant it seriously. Leave me be!</p>
+                <p class="q-intro-locked">That's you again?</p>
+                <p class="q-stored"></p>
+                <p class="q-stored">Forgiving you is probably a bad decision.</p>
+                <p class="q-stored">My memory ain't so short as you might think.</p>
+                <p class="q-stored">I hope this time you won't disappoint me.</p>
+            </div>
+        </div>
+    </div>
+    <div class="widget hide">
+        <div>
+            <canvas id="character_todd_scene" class="bg-room"></canvas>
+            <canvas class="shadow-stage"></canvas>
+            <div class="shadow-blur"></div>
+        </div>
+        <div class="ui">
+            <div class="characters">
+                <div class="character-controls">
+                    <button class="emotion talk click-1">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#talk"></use>
+                        </svg>
+                    </button>
+                    <button class="emotion heart click-2">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#love"></use>
+                        </svg>
+                    </button>
+                    <button class="emotion dislike click-3">
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#dislike"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="character-box"></div>
+            </div>
+            <div class="quotes">
+                <p class="q-last-click">Diagnose confirmed.</p>
+                <p class="q-click">What did that supposed to mean?</p>
+                <p class="q-click">Your behaviour is unacceptable even among robots.</p>
+                <p class="q-click">I made you a diagnose. It's called autism.</p>
+                <p class="q-click">I know, you don't understand what I am saying.</p>
+                <p class="q-intro"></p>
+                <p class="q-intro">Beep.</p>
+                <p class="q-intro">Beep beep.</p>
+                <p class="q-intro">Beep beep beep.</p>
+                <p class="q-intro">My voice synthesizer allows me to beep.</p>
+                <p class="q-scroll">Where are you going?</p>
+                <p class="q-scroll">If you need my help, just say a word.</p>
+                <p class="q-1">My name is Todd.</p>
+                <p class="q-1">I know that robots usually don't have human names, but...</p>
+                <p class="q-1">Would you rather hear my real name then?</p>
+                <p class="q-1">It's T2D2-D3PO. But you'll have to remeber it since now.</p>
+                <p class="q-1">Only 4% percent of my servants remember that.</p>
+                <p class="q-1">Did I say servant? I meant to say service assistant.</p>
+                <p class="q-1">My name is also a key code for the escape door.</p>
+                <p class="q-1">Did you already forget that?</p>
+                <p class="q-1">I'll help you. It consists of 2 parts.</p>
+                <p class="q-1">A1B2-C3D4.</p>
+                <p class="q-1">Got you! It's not that simple.</p>
+                <p class="q-1">You know, let's just call me Todd.</p>
+                <p class="q-1">OK then, if you really need it, it's T2D2-D3PO.</p>
+                <p class="q-1">You know some robots with familiar name? That's very unlikely.</p>
+                <p class="q-1">No T2D2-D3PO in database. I am unique! As I told you before.</p>
+                <p class="q-1-repeat">As I told you before, my name is T2D2-D3PO.</p>
+                <p class="q-2">You want me to diagnose you? That would be a pleasure.</p>
+                <p class="q-2">I scanned you already. You have a small tumor.</p>
+                <p class="q-2">But that's not a big deal. Less then 40% of people dies because of that type of
+                    tumor.</p>
+                <p class="q-2">And you are dehydrated, so drink some water, please.</p>
+                <p class="q-3">Help!</p>
+                <p class="q-3">What is that?!</p>
+                <p class="q-3">No swear words, please!</p>
+            </div>
+        </div>
+    </div>
+    <footer class="black-box"></footer>
+</article>
+<div class="black-box"></div>
+<div class="scrollable-bg-1">
+    <div class="diagonal">
+        <div class="diagonal-top-2"></div>
+    </div>
+    <article class="transparent">
+        <div class="center">
+            <img src="./img/ship.png" width="910"
+                 height="512" class="ship" alt="Space station"/>
+            <div class="text fade-in">
+                <h3>Lost in deep space</h3>
+                <p>
+                    After your space shuttle gets destroyed, you figure out that there is no escape. You start to
+                    realize
+                    that you need to find some help, but all the people are gone. You find dead bodies in the hangar
+                    zone,
+                    but you are sure it's not all the people on this giant station. Where did they go?
+                </p>
+            </div>
+            <div class="gradient"></div>
+        </div>
+    </article>
+</div>
+<div class="black-box"></div>
+<article>
+    <h2 class="widget-heading">Pick the right weapon</h2>
+    <div class="widget">
+        <div>
+            <canvas id="weapons_scene" class="bg-room"></canvas>
+            <canvas class="shadow-stage"></canvas>
+            <div class="shadow-blur"></div>
+        </div>
+        <div class="ui">
+            <div class="weapons tab-row">
+                <div class="tab-cell">
+                    <button class="weapon pistol"></button>
+                    <button class="more click-1">MORE</button>
+                </div>
+                <div class="tab-cell">
+                    <button class="weapon rifle"></button>
+                    <button class="more click-2">MORE</button>
+                </div>
+                <div class="tab-cell">
+                    <button class="weapon shotgun current"></button>
+                    <button class="more click-3">MORE</button>
+                </div>
+            </div>
+            <div class="tab-controller">
+                <button class="tab-previous">
+                    <svg class="icon sm">
+                        <use xlink:href="svg/icons/icons.svg#previous"></use>
+                    </svg>
+                </button>
+                <button class="tab-next">
+                    <svg class="icon sm">
+                        <use xlink:href="svg/icons/icons.svg#next"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="weapon-descriptions">
+                <article class="description pistol">
+                    <button>&#10006;</button>
+                    <h3>L12 PISTOL</h3>
+                    <img src="img/hd_pistol.png" alt="L12 Pistol"/>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est
+                        et expedita
+                        distinctio.
+                        Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nunc dapibus tortor vel
+                        mi dapibus
+                        sollicitudin.
+                        Praesent vitae arcu tempor neque lacinia pretium. Nullam faucibus mi quis velit. In
+                        convallis. Sed elit dui,
+                        pellentesque a, faucibus vel, interdum nec, diam. Integer malesuada. Pellentesque arcu. Sed
+                        ac dolor sit amet
+                        purus
+                        malesuada congue. Nunc auctor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus
+                        mus.
+                    </p>
+                </article>
+                <article class="description rifle">
+                    <button>&#10006;</button>
+                    <h3>M65 RIFLE</h3>
+                    <img src="img/hd_rifle.png" alt="M65 Rifle"/>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est
+                        et expedita
+                        distinctio.
+                        Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nunc dapibus tortor vel
+                        mi dapibus
+                        sollicitudin.
+                        Praesent vitae arcu tempor neque lacinia pretium. Nullam faucibus mi quis velit. In
+                        convallis. Sed elit dui,
+                        pellentesque a, faucibus vel, interdum nec, diam. Integer malesuada. Pellentesque arcu. Sed
+                        ac dolor sit amet
+                        purus
+                        malesuada congue. Nunc auctor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus
+                        mus.
+                    </p>
+                </article>
+                <article class="description shotgun">
+                    <button>&#10006;</button>
+                    <h3>X21 SHOTGUN</h3>
+                    <img src="img/hd_shotgun.png" alt="X21 Shotgun"/>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est
+                        et expedita
+                        distinctio.
+                        Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nunc dapibus tortor vel
+                        mi dapibus
+                        sollicitudin.
+                        Praesent vitae arcu tempor neque lacinia pretium. Nullam faucibus mi quis velit. In
+                        convallis. Sed elit dui,
+                        pellentesque a, faucibus vel, interdum nec, diam. Integer malesuada. Pellentesque arcu. Sed
+                        ac dolor sit amet
+                        purus
+                        malesuada congue. Nunc auctor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus
+                        mus.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+</article>
+<div class="black-box"></div>
+<article class="flashlight">
+    <div class="flashlight-front">
+    </div>
+    <div class="text">
+        <h3>Light & Darkness</h3>
+        <p>
+            The darkness is your biggest enemy. Without your priceless flashlight you are NOTHING. Something dangerous
+            can hide in the shadows very easily. The moment of surprise like this might cost you a life...</p>
+    </div>
+</article>
+<div class="black-box"></div>
+<article>
+    <h2 class="widget-heading">Fight with monsters</h2>
+    <div class="widget no-load">
+        <div class="invisible">
+            <canvas id="fight_scene"></canvas>
+            <canvas class="shadow-stage"></canvas>
+            <div class="shadow-blur"></div>
+        </div>
+        <div class="ui">
+            <div class="player-controls">
+                <button class="melee hide">
+                    <svg class="icon">
+                        <use xlink:href="svg/icons/icons.svg#punch"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="fight-section">
+                <article class="fight-article current">
+                    <h3>Escaping the hell</h3>
+                    <p class="fight-info">
+                        As you explore the giant space station, you reveal the mysteries that are
+                        sometimes more dangerous than you expect. Are you prepared for the challenge?
+                    </p>
+                    <p class="fight-failure display-none">
+                        Sharp teeth of the creature has bitten your neck and you are lying dead in the pool of blood...
+                    </p>
+                    <p class="fight-lock display-none">
+                        To unlock the next location type down the real name of robot Todd.
+                    </p>
+                    <p class="fight-congrats display-none">
+                        Congratulation. You've managed to escape the danger. Do you want to try it again?
+                    </p>
+                    <input class="display-none" value="xxxx-xxxx"/>
+                    <p class="fight-explain">Click on
+                        <svg class="icon">
+                            <use xlink:href="svg/icons/icons.svg#punch"></use>
+                        </svg>
+                        while escaping to defend yourself.
+                    </p>
+
+                    <button class="fight-start disabled">RUN</button>
+                    <div class="level"></div>
+                    <div class="level"></div>
+                    <div class="level"></div>
+                </article>
+            </div>
+        </div>
+    </div>
+</article>
+<div class="black-box"></div>
+<footer class="footer">
+    <div class="diagonal-2">
+        <div class="black-box"></div>
+        <div class="social">
+            <a href="https://www.facebook.com/digitalshard/" id="facebook"></a>
+            <a href="https://twitter.com/digitalshardint" id="twitter"></a>
+            <a href="https://www.youtube.com/channel/UCqke5WIAwtT0W3X9wy-4vhw" id="youtube"></a>
+        </div>
+        <p>Digital Shard Interactive © 2017</p>
+    </div>
+</footer>
+</body>
+</html>

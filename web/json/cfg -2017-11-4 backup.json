@@ -1,0 +1,449 @@
+{
+    "stages": [
+        {
+            "id": "main_scene_sm",
+            "width": 512,
+            "height": 512,
+            "bitmaps": [
+                {
+                    "name": "room_corner_bottom_L_sm",
+                    "x": 658,
+                    "y": -291,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_bottom_L_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": -198,
+                    "y": -308,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 2234,
+                    "y": -308,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": 1950,
+                    "y": -308,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm1",
+                    "x": 1088,
+                    "y": -205,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": 76,
+                    "y": -308,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm2",
+                    "x": 1266,
+                    "y": -205,
+                    "sort": 6,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 2514,
+                    "y": -308,
+                    "sort": 7,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm",
+                    "x": 356,
+                    "y": -308,
+                    "sort": 8,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm",
+                    "x": 912,
+                    "y": -205,
+                    "sort": 9,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm3",
+                    "x": 1442,
+                    "y": -205,
+                    "sort": 10,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_corner_bottom_L_sm1",
+                    "x": 1656,
+                    "y": -291,
+                    "sort": 11,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_bottom_L_sm"
+                },
+                {
+                    "name": "splitter_v1_sm",
+                    "x": -30,
+                    "y": -303,
+                    "sort": 12,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "splitter_v1_sm1",
+                    "x": 210,
+                    "y": -305,
+                    "sort": 13,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "splitter_v1_sm3",
+                    "x": 2338,
+                    "y": -303,
+                    "sort": 14,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "splitter_v1_sm2",
+                    "x": 2070,
+                    "y": -303,
+                    "sort": 15,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "room_terminal_pillar_sm",
+                    "x": 1174,
+                    "y": -54,
+                    "sort": 16,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_terminal_pillar_sm"
+                },
+                {
+                    "name": "room_terminal_monitor_sm",
+                    "x": 1172,
+                    "y": -281,
+                    "sort": 17,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_terminal_monitor_sm"
+                },
+                {
+                    "name": "hall_endL_sm1",
+                    "x": 2614,
+                    "y": -307,
+                    "sort": 22,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_endL_sm"
+                },
+                {
+                    "name": "hall_endL_sm",
+                    "x": -340,
+                    "y": -307,
+                    "sort": 23,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_endL_sm"
+                },
+                {
+                    "name": "room_corner_ceiling_L_sm",
+                    "x": 720,
+                    "y": -5,
+                    "sort": 24,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_ceiling_L_sm"
+                },
+                {
+                    "name": "room_corner_ceiling_L_sm1",
+                    "x": 1594,
+                    "y": -5,
+                    "sort": 25,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_ceiling_L_sm"
+                }
+            ],
+            "images": [],
+                        "skeletons": [
+                {
+                    "name": "Player",
+                    "x": 0,
+                    "y": -512,
+                    "sort": 15,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "standard_male_aim_r_sm",
+                    "skin": "hero",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [],
+            "lights": []
+        },
+		        {
+            "id": "light_test_sm",
+            "width": 512,
+            "height": 512,
+            "bitmaps": [
+                {
+                    "name": "room_corner_bottom_L_sm",
+                    "x": 658,
+                    "y": -291,
+                    "sort": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_bottom_L_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm2",
+                    "x": -198,
+                    "y": -308,
+                    "sort": 1,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm4",
+                    "x": 2234,
+                    "y": -308,
+                    "sort": 2,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm3",
+                    "x": 1950,
+                    "y": -308,
+                    "sort": 3,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm1",
+                    "x": 1088,
+                    "y": -205,
+                    "sort": 4,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm1",
+                    "x": 76,
+                    "y": -308,
+                    "sort": 5,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm2",
+                    "x": 1266,
+                    "y": -205,
+                    "sort": 6,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm5",
+                    "x": 2514,
+                    "y": -308,
+                    "sort": 7,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "hall_plain_v1_sm",
+                    "x": 356,
+                    "y": -308,
+                    "sort": 8,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm",
+                    "x": 912,
+                    "y": -205,
+                    "sort": 9,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_plain_v1_sm3",
+                    "x": 1442,
+                    "y": -205,
+                    "sort": 10,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_plain_v1_sm"
+                },
+                {
+                    "name": "room_corner_bottom_L_sm1",
+                    "x": 1656,
+                    "y": -291,
+                    "sort": 11,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_bottom_L_sm"
+                },
+                {
+                    "name": "splitter_v1_sm",
+                    "x": -30,
+                    "y": -303,
+                    "sort": 12,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "splitter_v1_sm1",
+                    "x": 210,
+                    "y": -305,
+                    "sort": 13,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "splitter_v1_sm3",
+                    "x": 2338,
+                    "y": -303,
+                    "sort": 14,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "splitter_v1_sm2",
+                    "x": 2070,
+                    "y": -303,
+                    "sort": 15,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "splitter_v1_sm"
+                },
+                {
+                    "name": "room_terminal_pillar_sm",
+                    "x": 1174,
+                    "y": -54,
+                    "sort": 16,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_terminal_pillar_sm"
+                },
+                {
+                    "name": "room_terminal_monitor_sm",
+                    "x": 1172,
+                    "y": -281,
+                    "sort": 17,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_terminal_monitor_sm"
+                },
+                {
+                    "name": "hall_endL_sm1",
+                    "x": 2614,
+                    "y": -307,
+                    "sort": 22,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_endL_sm"
+                },
+                {
+                    "name": "hall_endL_sm",
+                    "x": -340,
+                    "y": -307,
+                    "sort": 23,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "hall_endL_sm"
+                },
+                {
+                    "name": "room_corner_ceiling_L_sm",
+                    "x": 720,
+                    "y": -5,
+                    "sort": 24,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_ceiling_L_sm"
+                },
+                {
+                    "name": "room_corner_ceiling_L_sm1",
+                    "x": 1594,
+                    "y": -5,
+                    "sort": 25,
+                    "scaleX": -1.0,
+                    "scaleY": 1.0,
+                    "texture": "room_corner_ceiling_L_sm"
+                }
+            ],
+            "images": [],
+                        "skeletons": [
+                {
+                    "name": "Player",
+                    "x": 0,
+                    "y": -512,
+                    "sort": 15,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "source": "standard_male_aim_r_sm",
+                    "skin": "hero",
+                    "idle": "",
+                    "isActor": true
+                }
+            ],
+            "triggers": [],
+            "lights": []
+        }
+    ],
+    "name": "scene"
+}
